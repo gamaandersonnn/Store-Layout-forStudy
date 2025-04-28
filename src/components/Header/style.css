@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #f1f1f1;
+}
+  
+.HeaderLogo {
+    display: flex;
+    align-items: center;
+}
+  
+.Logo {
+    width: 60px;
+    margin-right: 20px;
+}
+  
+.HeaderNameStore {
+    color: #333;
+    font-weight: 600;
+}
+
+.HeaderNav{
+    
+    & .Nav {
+        display: flex;
+        align-items: center;
+    }
+
+    & .Nav a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #333;
+        font-weight: 600;
+    }
+
+    & .PerfilIcon{
+        width: 35px;
+        background-color: transparent;
+        border: none;
+    }
+
+    & .PerfilIcon:hover{
+        cursor: pointer;
+    }
+    
+    & .CartIcon{
+        width: 35px;
+        margin-left: 15px;
+        background-color: transparent;
+        border: none;
+    }
+
+    & .CartIcon:hover{
+        cursor: pointer;
+    }
+}

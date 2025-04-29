@@ -56,7 +56,7 @@ export default function Home() {
     const product = products[index];
 
     return (
-        <>
+        <>  
             <Header />
             <body>
                 <div class="container">
